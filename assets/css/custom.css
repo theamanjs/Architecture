@@ -15,7 +15,7 @@ body{
 }
 
 .bg-image{
-    background-image: url(./../img/bb.jpg);
+    background-image: url(./../img/protect.png);
     background-size: cover;
     height: 100vh;
     position: relative;
@@ -95,8 +95,6 @@ body{
     width: 40%;
     margin: 70px 0 0 0;
     color: white;
-
-
 }
 
 .jumbotron-temp-d > h1{
@@ -142,7 +140,6 @@ body{
     display: flex;
     /* justify-content: space-evenly; */
     height: auto;
-
     background-image: url("./../img/mission-vision.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -154,12 +151,6 @@ body{
     padding: 125px 0;
     justify-content: space-around;
 }
-
-
-
-
-
-
 
 .vision-text, .mission-text{
     width: 100%;
@@ -266,16 +257,37 @@ body{
     margin: 0 0 10% 0;
 }
 
+.welcome-image-div{
+    border: 5px solid black;
+    border-radius: 500px;
+    overflow: hidden;
+    max-height: 150px;
+    max-width: 150px;
+}
+
 .welcome-image{
-    max-height: 100px;
-    max-width: 100px;
-    padding: 20px 0;
+    max-height: 200px;
+    max-width: 200px;
+    /* padding: 20px 0; */
 }
 
 .image-area{
     display: flex;
     flex-direction: column;
 }
+
+ul.list-mission, .list-vision{
+    text-align: left;
+    list-style-type: circle !important;
+}
+
+ul.list-vision{
+    /* list-style-type: circle; */
+}
+
+/* .list-vision li{
+    list-style-type: disc;
+} */
 
 .text-area{
     background-image: url("./../img/study-with-us.jpeg");
