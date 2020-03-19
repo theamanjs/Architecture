@@ -252,6 +252,9 @@ body{
     max-height: 90%;
     margin: auto 0;
 }
+.vision-head{
+    margin-left: -60px;
+}
 
 .container-temp{
     margin: 0 0 10% 0;
@@ -456,7 +459,11 @@ ul.list-vision{
 
 
 
-
+/* @media screen and (min-width: 768px){
+    .vision-head {
+        margin-left: -60px;
+    }
+} */
 
 @media screen and (max-width:768px){
 
@@ -516,7 +523,7 @@ ul.list-vision{
         background-size: 184% 89%;
     }
     .vision-head{
-        margin: 40px 10px 0 20px;
+        margin: 40px 10px 0 20px !important;
     }
     .mission-head{
         margin: 10px 10px 10px 10px;
@@ -574,18 +581,22 @@ ul.list-vision{
     }
     .footer-content{
         flex-direction: column-reverse;
-        align-items: center;
+        /* align-items: center; */
     }
     .left-content, .right-content, .center-content{
         max-width: 80%;
     }
+    .right-content{
+        align-self: center;
+    }
+    .left-content, .center-content{
+        margin-left: 30px;
+    }
     .center-content{
         align-self: flex-start;
-        margin-left: 9%;
+        /* margin-left: 9%; */
     }
-    .left-content{
-        margin-left: -110px;
-    }
+   
     .toggle-menu{
         background: rgba(0,0,0,0.5);
 
