@@ -23,3 +23,7 @@ var swiper = new Swiper('.swiper-container', {
       el: '.swiper-pagination',
     },
   });
+
+// ----------------------------------------
+
+document.querySelector('.welcome-image').ondragstart = function() { return false; };

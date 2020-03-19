@@ -801,8 +801,9 @@ li {
 
 
 
-
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+
 
 .item{
     background: white;    
@@ -841,12 +842,15 @@ img.event{
     filter: alpha(opacity=100); /* ie fix */
 }
 
-
+/* .carousel-inner>.item>img{ 
+  margin: -100px 0 0 -50px;
+ } */
 
 .swiper-slide{
     background: #16181C;
   /* background-image: url("./../img/img-1.jpg"); */
 }
+
 
 .swiper-container {
   width: 100%;
@@ -882,4 +886,9 @@ img.event{
 
 .heading > h1{
   font-size: 28px;
+}
+
+
+.swiper-slide img{
+  margin: -10px 0 0px 1px;
 }

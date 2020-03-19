@@ -140,7 +140,7 @@ body{
     display: flex;
     /* justify-content: space-evenly; */
     height: auto;
-    background-image: url("./../img/mission-vision.jpg");
+    background-image: url("./../img/vision-mission.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -257,8 +257,12 @@ body{
     margin: 0 0 10% 0;
 }
 
+.container-temp.welcome > div{
+    margin: 20px 0 0 0;
+}
+
 .welcome-image-div{
-    border: 5px solid black;
+    /* border: 5px solid black; */
     border-radius: 500px;
     overflow: hidden;
     max-height: 150px;
@@ -266,8 +270,11 @@ body{
 }
 
 .welcome-image{
-    max-height: 200px;
+    /* max-height: 200px; */
     max-width: 200px;
+    height: 300px;
+    margin-top: -20px;
+    margin-left: -5px;
     /* padding: 20px 0; */
 }
 
@@ -345,9 +352,9 @@ ul.list-vision{
 }
 
 .lower-left{
-    background-image: url("./../img/book-shelf.jpg");
+    background-image: url("./../img/student-living.jpeg");
     background-repeat: no-repeat;
-    background-size: 140% ;
+    background-size: 100% ;
     width: 50%;
     /* min-height: 450px; */
 }
@@ -397,6 +404,8 @@ ul.list-vision{
     width: 300px;
     height: 200px;
 } */
+
+
 
 
 .footer{
@@ -503,6 +512,9 @@ ul.list-vision{
         width: 90vw;
         /* height: 100%; */
     }
+    .vision-mission{
+        background-size: 184% 89%;
+    }
     .vision-head{
         margin: 40px 10px 0 20px;
     }
@@ -571,6 +583,9 @@ ul.list-vision{
         align-self: flex-start;
         margin-left: 9%;
     }
+    .left-content{
+        margin-left: -110px;
+    }
     .toggle-menu{
         background: rgba(0,0,0,0.5);
 
@@ -597,4 +612,9 @@ ul.list-vision{
         right: -20px;
         top: 15px;
     }
+    .carousel-inner>.item>img{
+        max-width: 150% !important;
+
+    }
+    
 }
