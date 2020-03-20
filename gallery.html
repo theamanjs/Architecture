@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/cards.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lightgallery.min.css">
+    <title>GNDEC-School Of Architecture</title>
+    <style>
+        .g-image {
+            max-width: 210px;
+            max-height: 150px;
+            margin: 0;
+        }
+
+        .aniimated-thumbnials {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            /* flex-direction: column; */
+            max-width: 100vw;
+        }
+
+        /* .outer-bound{
+        max-height: 150px;
+        width: 200px;
+    } */
+        .outer>img {
+            overflow: hidden;
+            min-height: 150px;
+            max-width: 210px;
+            width: auto;
+            margin: 10px;
+            border: 3px transparent;
+            /* border: 3px solid #000; */
+            border-radius: 5px;
+
+        }
+
+        .outer > img:hover {
+            /* zoom: 150%; */
+            border-radius: 5px;
+            border: 3px transparent;
+            box-shadow: 0px 0px 12px black;
+            transition: all .2s;
+            /* height: 400px; */
+        }
+
+        .g-container {
+            max-height: 80vh;
+        }
+        .bg-image{
+            background-image: url("./assets/img/art14.jpeg");
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-temp bg-image g-container">
+        <div class="overlay overlay-light g-container">
+            <!-- Navigation bar starts -->
+            <div class="d-flex justify-content-center nav-container">
+                <ul class="d-flex navbar align-items-center">
+                    <li class="list-item"><a href="index.html">Home</a></li>
+                    <li class="list-item"><a href="#">About</a></li>
+                    <li class="list-item"><a href="gallery.html">Gallery</a></li>
+                    <li class="list-item logo"><img src="./assets/img/logo.png" alt="" class="logo-img"></li>
+                    <li class="list-item"><a href="#">About</a></li>
+                    <li class="list-item"><a href="#">Contact</a></li>
+                    <li class="list-item"><a href="#">Misc</a></li>
+                    <li class="list-item hamburger-icon" onclick="toggleMenu()"></li>
+                </ul>
+            </div>
+            <!-- Navigation bar ends  -->
+
+            <div class="jumbotron-container d-flex justify-content-center">
+                <div class="jumbotron-temp-d">
+                    <h1>GALLERY</h1>
+                    
+                    <!-- <button class="btn-primary">Apply Now</button> -->
+                </div>
+            </div>
+            <!-- Information text on photo ends here -->
+
+        </div>
+    </div>
+    <!-- nav bar ends -->
+
+    <h1 class="text-center">Events & Educational Visits</h1>
+    <br><br><br>
+    <div class="aniimated-thumbnials">
+        <a href="./assets/img/grey.png">
+            <div class="outer">
+                <img src="./assets/img/event2.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/event1.jpeg">
+            <div class="outer">
+                <img src="./assets/img/event1.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/event2.jpeg">
+            <div class="outer">
+                <img src="./assets/img/event2.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/event3.jpeg">
+            <div class="outer">
+                <img src="./assets/img/event3.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/event4.jpeg">
+            <div class="outer">
+                <img src="./assets/img/event4.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/event5.jpeg">
+            <div class="outer">
+                <img src="./assets/img/event5.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/event6.jpeg">
+            <div class="outer">
+                <img src="./assets/img/event6.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/event7.jpeg">
+            <div class="outer">
+                <img src="./assets/img/event7.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/event8.jpeg">
+            <div class="outer">
+                <img src="./assets/img/event8.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/event9.jpeg">
+            <div class="outer">
+                <img src="./assets/img/event9.jpeg" class="g-image" />
+            </div>
+        </a>
+    </div>
+    <hr>
+    <br>
+    <h1 class="text-center">News Coverings</h1>
+    <br><br>
+    <div class="aniimated-thumbnials">
+        <a href="./assets/img/news1.jpeg">
+            <div class="outer">
+                <img src="./assets/img/news1.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/news2.jpeg">
+            <div class="outer">
+                <img src="./assets/img/news2.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/news3.jpeg">
+            <div class="outer">
+                <img src="./assets/img/news3.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/news4.jpeg">
+            <div class="outer">
+                <img src="./assets/img/news4.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/news5.jpeg">
+            <div class="outer">
+                <img src="./assets/img/news5.jpeg" class="g-image" />
+            </div>
+        </a>
+    </div>
+    <hr>
+    <br>
+    <h1 class="text-center">Art Work</h1>
+    <br><br>
+    <div class="aniimated-thumbnials">
+        <a href="./assets/img/art1.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art1.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/art2.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art2.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/art3.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art3.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/art4.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art4.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/art5.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art5.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/art6.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art6.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/art7.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art7.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/art8.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art8.jpeg" class="g-image" />
+            </div>
+        </a>
+        
+        <a href="./assets/img/art9.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art9.jpeg" class="g-image" />
+            </div>
+        </a>
+        
+        <a href="./assets/img/art10.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art10.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/art11.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art11.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/art12.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art12.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/art13.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art13.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/art14.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art14.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/art15.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art15.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/art16.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art16.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/art17.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art17.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/art18.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art18.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/art19.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art19.jpeg" class="g-image" />
+            </div>
+        </a>
+
+        <a href="./assets/img/art20.jpeg">
+            <div class="outer">
+                <img src="./assets/img/art20.jpeg" class="g-image" />
+            </div>
+        </a>
+        <!-- </div> -->
+    </div>
+
+
+
+    <div class="footer">
+        <div class="footer-content">
+            <div class="left-content">
+                <h3>Get in touch</h3>
+                <hr>
+                <p>Guru Nanak Dev Engineering College</p>
+                <p><strong>Address: </strong>Gill Park, Ludhiana.<br>
+                    <strong>Tel: </strong>0161-******* <br>
+                    <strong>Email: </strong>admin@gndec.ac.in<br>
+                    <strong>Mobile: </strong>+91-***-****-***</p>
+            </div>
+            <div class="center-content">
+                <h3>Useful Links</h3>
+                <hr>
+                <ul>
+                    <li><a href="#">Teachers</a></li>
+                    <li><a href="#">Parents</a></li>
+                    <li><a href="#">Staff</a></li>
+                    <li><a href="#">Students</a></li>
+                    <li><a href="#">Faculty</a></li>
+                    <li><a href="#">Visitors</a></li>
+                </ul>
+            </div>
+            <div class="right-content d-flex">
+                <img src="./assets/img/logo.png" alt="">
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright &copy; GNDEC School Of Architecture. All Rights Reserved.
+        </div>
+    </div>
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/js/lightgallery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/js/lightgallery-all.min.js"></script>
+<script>
+    $('.aniimated-thumbnials').lightGallery({
+        thumbnail: true,
+        animateThumb: false,
+        showThumbByDefault: false
+    }); 
+</script>
+
+</html>
